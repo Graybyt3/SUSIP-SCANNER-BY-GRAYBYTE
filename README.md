@@ -1,5 +1,7 @@
 # GRAYBYTE SUSIP-SCANNER V 1.0.1
 
+![Terminal Preview](https://raw.githubusercontent.com/Graybyt3/SUSIP-SCANNER-BY-GRAYBYTE/refs/heads/main/sus-ip-terminal-output-preview.png)
+
 This small bash script help you to check which program in your linux making network connect.  
 It group all connection by application, so you can see easy which PID, which path, which command, and to which IP/port it connect.  
 Main idea is for check sus activity like password stealer or any program doing bad traffic.
@@ -36,6 +38,7 @@ sudo dnf install iproute
 🛠️ How To Use
 Save script as file
 
+bash
 Copy code
 sus_ip_scanner.sh
 Make executable
@@ -50,6 +53,7 @@ Copy code
 ./sus_ip_scanner.sh
 After finish, it create log file in current folder:
 
+bash
 Copy code
 29-Aug-2025-gray-susip.txt
 📑 Example Output
@@ -84,3 +88,7 @@ Script not block anything, it only log and show.
 You can extend for check IP blacklist or strange port if want.
 
 If you don’t know, just run and read file.
+
+![Log File Preview](https://raw.githubusercontent.com/Graybyt3/SUSIP-SCANNER-BY-GRAYBYTE/refs/heads/main/sus-ip-log-output-preview.png)
+
+
