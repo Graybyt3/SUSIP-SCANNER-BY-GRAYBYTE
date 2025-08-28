@@ -89,6 +89,8 @@ You can extend for check IP blacklist or strange port if want.
 
 If you don’t know, just run and read file.
 
+## 📷 Log Output Preview
+
 ![Log File Preview](https://raw.githubusercontent.com/Graybyt3/SUSIP-SCANNER-BY-GRAYBYTE/refs/heads/main/sus-ip-log-output-preview.png)
 
 
